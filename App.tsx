@@ -97,7 +97,7 @@ const App: React.FC = () => {
               Portfolio
             </h2>
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight tracking-tight">
-              Akshaya U K
+              AKSHAYA U K
             </h1>
             <p className="text-xl md:text-2xl text-slate-400 mb-10 max-w-3xl mx-auto leading-relaxed font-light">
               Aspiring <span className="text-sky-200 font-medium">Full-Stack Developer</span> & <span className="text-indigo-200 font-medium">ML Enthusiast</span> <br className="hidden md:block"/>building clean, scalable software solutions.
@@ -450,10 +450,8 @@ const App: React.FC = () => {
             <footer className="border-t border-white/5 pt-10 text-slate-600 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
               <p>© {new Date().getFullYear()} Akshaya U K. All rights reserved.</p>
               <div className="flex items-center gap-2">
-                 <span>Built with</span>
-                 <span className="text-slate-400">React</span>
-                 <span>&</span>
-                 <span className="text-sky-400 font-medium flex items-center gap-1"><Terminal size={12}/> Gemini AI</span>
+
+                 <span className="text-sky-400 font-medium flex items-center gap-1"> Akshaya UK</span>
               </div>
             </footer>
           </motion.div>
