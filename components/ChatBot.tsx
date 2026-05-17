@@ -64,7 +64,7 @@ const ChatBot: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-100 text-sm">Portfolio Assistant</h3>
-                  <p className="text-xs text-accent">Powered by Gemini</p>
+                 
                 </div>
               </div>
               <button 
