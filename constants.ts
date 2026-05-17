@@ -36,6 +36,12 @@ Projects:
    - Designed a simple HTML/CSS/JS interface for user input and results.
    - Improved backend response times through debugging and testing.
 
+3. Brain Hemorrhage Detection System (Python, PyTorch, Django, Blockchain)
+   - Developed an automated diagnostic system using a CNN for CT scan analysis and Random Forest for symptom-based prediction.
+   - Built a secure web platform using Django for uploading patient data and medical imagery.
+   - Integrated Blockchain and Smart Contracts to ensure the immutability and security of diagnostic records.
+   - Implemented an intelligent Chatbot to assist users with prescriptions and diagnostic updates.
+
 Academic Experience:
 - Completed practical labs in Java OOP, data structures, and exception handling.
 - Designed SQL schemas, queries, joins, and constraints during DBMS lab sessions.
@@ -75,6 +81,17 @@ export const PROJECTS: Project[] = [
       "Designed a responsive interface for user input and results visualization."
     ],
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop"
+  },
+  {
+    title: "Brain Hemorrhage Detection System",
+    tech: ["Python", "PyTorch", "Django", "CNN", "Blockchain"],
+    description: [
+      "Developed a diagnostic system using CNNs for CT scan analysis and Random Forest for symptom-based prediction.",
+      "Built a secure backend architecture using Django to facilitate medical image uploads and patient data processing.",
+      "Integrated Blockchain and Smart Contracts to ensure immutability and transparency of sensitive diagnostic records.",
+      "Implemented a Chatbot interface to simplify doctor-patient communication and provide real-time updates."
+    ],
+    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=2071&auto=format&fit=crop"
   }
 ];
 
@@ -106,15 +123,15 @@ export const ACADEMIC_HIGHLIGHTS = [
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: "Languages",
-    skills: ["Java", "Python", "C", "C++", "HTML", "CSS"]
+    skills: ["Java", "Python", "C", "C++", "HTML", "CSS", "SQL"]
   },
   {
     title: "Frameworks & Tools",
-    skills: ["Flask", "Scikit-learn", "MySQL", "Git", "VS Code"]
+    skills: ["Django", "Flask", "PyTorch", "Scikit-learn", "MySQL", "Git"]
   },
   {
     title: "Technical Concepts",
-    skills: ["OOP", "DBMS", "DSA", "Operating Systems", "Computer Networks", "SDLC", "APIs"]
+    skills: ["Machine Learning", "Blockchain", "OOP", "DBMS", "DSA", "APIs"]
   }
 ];
 
